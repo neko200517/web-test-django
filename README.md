@@ -12,7 +12,7 @@ python manage.py runserver
 
 以下の画面にアクセスし、CRUD 操作が行えるかテストする。
 
-http://localhost:8000/api/profile
-http://localhost:8000/api/segments
-http://localhost:8000/api/brands
-http://localhost:8000/api/vehicles
+- http://localhost:8000/api/profile
+- http://localhost:8000/api/segments
+- http://localhost:8000/api/brands
+- http://localhost:8000/api/vehicles
