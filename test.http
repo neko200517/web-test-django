@@ -1,0 +1,17 @@
+@baseUrl = http://127.0.0.1:8000
+
+###
+
+GET {{baseUrl}}/api/profile/
+
+###
+
+POST {{baseUrl}}/api/auth/
+content-type: application/json
+
+{
+  "username": "user3",
+  "password": "user3"
+}
+
+# token = f00ba755890a41bcfade2168de0d5eb6e36c4ae6
